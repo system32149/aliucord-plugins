@@ -27,7 +27,7 @@ data class TextReplacement(
     companion object {
         val DEFAULT_LIST = arrayOf(
             TextReplacement("media.discordapp.net", "cdn.discordapp.com", false, true, true, false, false),
-            TextReplacement("bluesmods.com", "aliucord.tk", false, true, true, false, false),
+            TextReplacement("bluesmods.com", "aliucord.com", false, true, true, false, false),
         )
         public fun emptyRule(): TextReplacement {
             return TextReplacement("", "", false, true, true, true, true)
